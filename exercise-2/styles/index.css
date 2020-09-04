@@ -13,12 +13,18 @@ body {
 }
 
 h1 {
+    font-family: Georgia;
+    text-transform: uppercase;
     color: #fff;
     font-size: 2em;
     width: 100%;
+    text-align: center;
+    
 }
 
 h2 {
+    font-family: Georgia;
+    text-transform: capitalize;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     color: rgba(255, 255, 255, 0.5);
     font-weight: 100;
@@ -29,6 +35,8 @@ h2 {
 }
 
 p {
+    font-family: Helvetica;
+    font-size: 18px;
     color: AliceBlue;
     line-height: 1.3em;
     text-align: left;
@@ -39,6 +47,7 @@ p {
     background-size: cover;
     background-position: center;
     height: 300px;
+    background-image: url("../img/background-img.jpg");
 }
 
 .caption {
@@ -51,5 +60,16 @@ p {
     position: relative;
     top: 80%;
     width: 60%;
+    background-color: white;
+    color: black;
+    opacity: 0.75;
+    font-style: italic;
 }
 
+p::first-line {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
